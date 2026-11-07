@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Anonymous setup script for double-blind submission."""
+"""Package setup for EvoMM."""
 
 from setuptools import setup, find_packages
 
@@ -17,7 +17,7 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="evomm",
     version="0.1.0",
-    author="Anonymous",
+    url="https://github.com/VincentZhao2002/EvoMM",
     description="A general memory system for agents, powered by deep-research.",
     long_description=long_description,
     long_description_content_type="text/markdown",

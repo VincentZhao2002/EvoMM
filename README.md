@@ -1,9 +1,9 @@
-# EvoMM (Anonymous Submission)
+# EvoMM
 
-A general memory system for agents, powered by deep-research. This repository
-contains the code accompanying our paper submission. All author identifiers,
-institutional affiliations, internal links, and absolute filesystem paths have
-been removed to comply with double-blind review requirements.
+Code for **EvoMM: Reinforced Self-Evolving Multimodal Agentic Memory**,
+accepted at **NeurIPS 2026**.
+
+A general memory system for agents, powered by deep-research.
 
 ## Project Layout
 
@@ -33,6 +33,8 @@ docs/                           Design notes
 ## Installation
 
 ```bash
+git clone https://github.com/VincentZhao2002/EvoMM.git
+cd EvoMM
 pip install -e .
 ```
 

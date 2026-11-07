@@ -9,9 +9,6 @@ description = "A general memory system for agents, powered by deep-research."
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
-authors = [
-    {name = "Anonymous"},
-]
 keywords = ["ai", "memory", "agent", "llm", "nlp"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -37,6 +34,9 @@ dependencies = [
     "pandas",
     "scikit-learn",
 ]
+
+[project.urls]
+Repository = "https://github.com/VincentZhao2002/EvoMM"
 
 [project.optional-dependencies]
 dev = [
